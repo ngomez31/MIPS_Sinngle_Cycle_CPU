@@ -16,10 +16,11 @@
 //   - Used for instructions such as:
 //       addi, lw, sw, beq, slti
 // ------------------------------------------------------------
-module Sign_Extend_32( input  logic  [15:0] A,
+module Sign_Extend_32( 
+			   input  logic  [15:0] A,
 		       output logic  [31:0] Y
 );
 
 	//Replicate the sign bit A[15] into the upper 16 bits
-	assign Y = {{16[A[15]}},A}
+	assign Y = {{16[A[15]}},A};
 endmodule
