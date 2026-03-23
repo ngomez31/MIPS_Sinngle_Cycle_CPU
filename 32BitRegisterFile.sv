@@ -1,5 +1,5 @@
 // ------------------------------------------------------------
-// Module: MiPSRegFile
+// Module: MIPS_Reg_File
 // Description:
 //   This module implements a 32-bit MIPS register file.
 //
@@ -30,7 +30,7 @@
 //      matching standard MIPS behavior.
 // ------------------------------------------------------------
 
-module MiPSRegFile (
+module MIPS_Reg_File (
     input  logic        clk,   // Clock signal
     input  logic        WE3,   // Write enable
     input  logic [4:0]  A1,    // Read address 1
