@@ -1,0 +1,17 @@
+# Quartus
+db/
+incremental_db/
+output_files/
+*.qpf
+*.qsf
+*.qws
+
+# ModelSim
+work/
+*.wlf
+*.mti
+*.mpf
+modelsim.ini
+
+# Backup files
+*.bak
